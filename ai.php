@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bucket-list</title>
+    <title>Artificiell Intelligens: AI</title>
 </head>
 
 <body>
     <?php include "./junkDrawer/meny.php" ?>
     <main>
-        <h1>Att använda AI</h1>
+        <h1>Artificiell Intelligens: AI</h1>
         <p>Känns fel att säga: men ja, jag har använt AI som hjälpmedel för denna uppgift. Bland annat ChatGPT och Google AI. De 
             har använts som bollplank och som lärare för att jag snabbt skulle få öva på syntax och hur PHPs programmeringsuppbyggnad 
             fungerar som.

@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Start</title>
+    <title>Uppgift 2: Intro till PHP</title>
 </head>
 
 <body>
     <!--inkludera en nav-meny från junkdrawer-->
     <?php include "./junkDrawer/meny.php" ?>
     <main>
-        <h1>Startsidan</h1>
+        <h1>Uppgift 2: Intro till PHP</h1>
         <section class="section-text">
             <h2>Om uppgiften</h2>
             <p>Denna uppgift, Introduktion till PHP, har gått ut på att skapa en enklare webbplats med
