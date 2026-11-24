@@ -14,6 +14,7 @@
             $sql = "INSERT INTO bucketitem(name, description, priority) VALUES (:name, :description, :priority)";
             $stmt = $this->pdo->prepare($sql);
             $stmt->execute([
+                //:name = placeholder för värde
                 ":name"=>$item->getName(),
                 ":description" => $item->getDescription(),
                 ":priority" => $item->getPriority()
