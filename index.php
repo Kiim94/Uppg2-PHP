@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--inkludera en nav-meny från junkdrawer-->
     <?php include "./junkDrawer/meny.php" ?>
     <main>
         <h1>Startsidan</h1>
@@ -36,9 +37,8 @@
         <section class="section-text">
             <h2>Angående PHP</h2>
             <p>Har lite blandade känslor kring PHP. Å ena sidan känns det ganska trevligt att kunna använda det direkt
-                på samma sida som HTML, lite som
-                EJS. Men å andra sidan är det lite av en kurva att lära sig syntaxen: många saker känns igen,
-                men samtidigt är det mycket annorlunda som gör att man kan snubbla.</p>
+                på samma sida som HTML, lite som EJS. Men å andra sidan är det lite av en kurva att lära sig syntaxen: 
+                många saker känns igen, men samtidigt är det mycket annorlunda som gör att man kan snubbla.</p>
             <p>Inte helt ovanligt från hur det är att lära sig andra programmeringsspråk, eller nya saker i allmänhet.</p>
             <p>Min största utmaning är själva databasanslutning och sedan hur man kan dölja informationen i den (lösenord, databasnamn med mera) 
                 när man ska göra en webbplats publik.</p>
@@ -61,8 +61,7 @@
                 <p>Officiella dokumentationen är omfattande, men tekniskt svår att förstå. Inte särskilt nybörjarvänlig att läsa.</p>
                 <p>Medan det är trevligt att kunna skriva PHP direkt med HTML, så kan det bli rörigt ibland.</p>
                 <p>Medan man inte behöver ange vilken datatyp en variabel ska ha så kan det leda till att variabeln tilldelas olika värden 
-                    under programmeringens gång. Det kan leda till fel när programmet körs.
-                </p>
+                    under programmeringens gång. Det kan leda till fel när programmet körs.</p>
             </div>
         </section>
 
