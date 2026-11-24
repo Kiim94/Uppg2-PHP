@@ -96,6 +96,7 @@ if (isset($_POST["delete_id"])) {
 
             </form>
         </section>
+
         <section>
             <h2>Min Bucket-List</h2>
             <div class="table-div">
@@ -117,6 +118,7 @@ if (isset($_POST["delete_id"])) {
 
                         <?php foreach ($items as $row): ?>
                             <tr>
+                                <!-- <=?: kortform av echo -->
                                 <td><?= htmlspecialchars((string) $row["id"]) ?></td>
                                 <td><?= htmlspecialchars($row["name"]) ?></td>
                                 <td><?= htmlspecialchars($row["description"]) ?></td>
