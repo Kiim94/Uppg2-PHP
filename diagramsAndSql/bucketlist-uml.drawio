@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="EGji47GYlfp_ffoA9zsy" name="Page-1">
+        <mxGraphModel dx="765" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-1" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;BucketItem&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="360" width="210" x="370" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-2" parent="FeWXx0dPRnCLNt6zIRCX-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attributes" vertex="1">
+                    <mxGeometry height="20" width="210" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-3" parent="FeWXx0dPRnCLNt6zIRCX-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- id: int&lt;div&gt;- name: string&lt;/div&gt;&lt;div&gt;- description: string&lt;/div&gt;&lt;div&gt;- priority: int&lt;/div&gt;&lt;div&gt;- created_at: DateTime&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="98" width="210" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-6" parent="FeWXx0dPRnCLNt6zIRCX-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelPerimeter=1;" value="" vertex="1">
+                    <mxGeometry height="8" width="210" y="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-7" parent="FeWXx0dPRnCLNt6zIRCX-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="metoder" vertex="1">
+                    <mxGeometry height="20" width="210" y="156" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeWXx0dPRnCLNt6zIRCX-8" parent="FeWXx0dPRnCLNt6zIRCX-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+__construct(..)&lt;div&gt;+ getName():string&lt;/div&gt;&lt;div&gt;+ getDescription(): string&lt;/div&gt;&lt;div&gt;+ getPriority(): int&lt;/div&gt;&lt;div&gt;+ getId(): int&lt;/div&gt;&lt;div&gt;+ getCreatedAt(): DateTime&lt;/div&gt;&lt;div&gt;+ setName(string name)&lt;/div&gt;&lt;div&gt;+ setDescription(string description)&lt;/div&gt;&lt;div&gt;+ setPriority(int priority)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="184" width="210" y="176" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
