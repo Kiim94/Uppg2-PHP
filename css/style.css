@@ -24,6 +24,9 @@ main, section{
     min-width:0;
 }
 /*NAVIGERINGEN*/
+nav{
+    border-bottom:2px solid rgb(145, 75, 98);
+}
 nav ul{
     display:flex;
     flex-direction:row;
@@ -35,7 +38,7 @@ nav ul{
 nav ul li a{
     text-decoration:none;
     color:palevioletred;
-    font-size:2rem;
+    font-size:1.8rem;
     padding:1rem 1.5rem;
     border-radius:20px;
     transition:0.2s ease;
