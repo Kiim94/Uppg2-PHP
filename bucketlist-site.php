@@ -86,6 +86,7 @@ if (isset($_POST["delete_id"])) {
                 </div>
                 <div class="div-input">
                     <?php 
+                    //visa felmeddelande, om ett sådant dyker upp
                     if (!empty($errorMsg)){
                         //htmlspecialchars: konverterar sådant som < > till &lt; och &gt;
                         echo "<p class='errorMessage'>" . htmlspecialchars($errorMsg) . "</p>";
@@ -113,15 +114,21 @@ if (isset($_POST["delete_id"])) {
                     </thead>
                     <tbody>
                         <?php
+                        //skapa ett nytt readItem, alltså för att skriva ut/visa
                         $item = new ReadItem($pdo);
+                        //kalla på funktion för att skriva ut, spara i variabel
                         $items = $item->getAllItems(); ?>
 
+                        <!--en foreach: skriv ut för varje sak som finns i listan-->
                         <?php foreach ($items as $row): ?>
                             <tr>
                                 <!-- <=?: kortform av echo -->
                                 <td><?= htmlspecialchars((string) $row["id"]) ?></td>
                                 <td><?= htmlspecialchars($row["name"]) ?></td>
                                 <td><?= htmlspecialchars($row["description"]) ?></td>
+                                
+                                <!--en sträng pga att htmlspecialchars förväntar sig en sträng. 
+                                Men utan htmlspecialchars så är det möjligt för utomstående att leka med detta-->
                                 <td><?= htmlspecialchars((string) $row["priority"]) ?></td>
                                 <td><?= htmlspecialchars($row["created_at"]) ?></td>
                                 <td>
