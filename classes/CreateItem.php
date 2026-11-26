@@ -12,7 +12,11 @@
             $item = new BucketItem($name, $description,$priority);
 
             $sql = "INSERT INTO bucketitem(name, description, priority) VALUES (:name, :description, :priority)";
+            
+            //genom databasanslutningen, be den förbereda SQL-frågan från ovan
             $stmt = $this->pdo->prepare($sql);
+            
+            //utför handlingen som bestämdes ovan. hämta information från BucketItems get funktioner
             $stmt->execute([
                 //:name = placeholder för värde
                 ":name"=>$item->getName(),
