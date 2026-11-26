@@ -11,6 +11,8 @@ Den är ansluten till en databas, och det går att lägga till nya saker, läsa 
 ### AI
 Slutligen AI sidan ska innehålla information om jag har använt AI eller inte (spoiler, det har jag). Reflektioner kring detta och en slutsats om hur AI kan vara bra/dåligt.
 
+## Webbplatsen
+Denna länk kommer att leda [till webbplatsen](https://studenter.miun.se/~mobr2500/php/bucketlist/index.php)
 ## Extra
 - Objektorienterad (OOP) PHP ska användas för de klasser som används
 - Ett ER-diagram samt ett UML har tagits fram för denna uppgift (finns i mappen **diagramsAndSql**)
