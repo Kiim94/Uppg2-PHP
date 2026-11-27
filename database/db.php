@@ -7,6 +7,7 @@ $dbname = "uppg2-bucketlist";
 $username = "root";
 $password = "";
 
+
 try {
     //skapa nytt PDO-objekt - gör att kommunikation mellan projekt och databas fungerar
     //pdo är databasanslutningen: den behöver nås av de klasser som behöver kommunicera med databasen (lägga till, radera osv)

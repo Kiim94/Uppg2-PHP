@@ -159,6 +159,12 @@ footer{
     html{
         font-size:15px;
     }
+    nav ul{
+        gap:1rem;
+    }
+    nav ul li a{
+    padding:0.5rem 1rem;
+    }
 }
 @media (max-width:450px){
     html{
